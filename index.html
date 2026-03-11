@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pramath Shrestha | Developer & Digital Marketer</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-text">
+            <span>P</span><span>R</span><span>A</span><span>M</span><span>A</span><span>T</span><span>H</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-bracket">{</span>PS<span class="logo-bracket">}</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#services" class="nav-link" data-section="services">Services</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-tag">
+                    <span class="tag-dot"></span>
+                    Available for work
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Hi, I'm</span>
+                    <span class="title-name">PRAMATH</span>
+                    <span class="title-name title-name-outline">SHRESTHA</span>
+                </h1>
+                <div class="hero-roles">
+                    <span class="role-text" id="typed-text"></span>
+                    <span class="typed-cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Crafting elegant code and powerful digital experiences. 
+                    I blend development expertise with marketing insights to build 
+                    solutions that not only work — but <em>convert</em>.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Let's Talk</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="15">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="10">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="2">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Years Exp</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-card">
+                    <div class="profile-image-wrapper">
+                        <div class="profile-image">
+                            <img src="assets/images/profile.jpg" alt="Pramath Shrestha" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'profile-placeholder\'><i class=\'fas fa-user\'></i></div>';">
+                        </div>
+                        <div class="profile-ring"></div>
+                        <div class="profile-ring profile-ring-2"></div>
+                    </div>
+                    <div class="floating-badge badge-java">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <div class="floating-badge badge-html">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="floating-badge badge-marketing">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="floating-badge badge-react">
+                        <i class="fab fa-js"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// About Me</span>
+                <h2 class="section-title">Turning ideas into <span class="highlight">digital reality</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="lead">
+                            I'm <strong>Pramath Shrestha</strong> — a passionate developer and digital marketing 
+                            specialist who loves building things that live on the internet.
+                        </p>
+                        <p>
+                            As a <strong>Junior Java Developer</strong>, I write clean, efficient backend code. 
+                            As a <strong>Frontend Developer</strong>, I create beautiful, responsive user interfaces. 
+                            And as a <strong>Digital Marketing Specialist</strong>, I ensure that what I build 
+                            reaches the right audience.
+                        </p>
+                        <p>
+                            This unique combination allows me to approach projects holistically — from the 
+                            backend architecture to the user interface, all the way to the marketing strategy 
+                            that drives growth.
+                        </p>
+                    </div>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Name</span>
+                            <span class="detail-value">Pramath Shrestha</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email</span>
+                            <span class="detail-value">pramath@example.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Location</span>
+                            <span class="detail-value">Nepal</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Availability</span>
+                            <span class="detail-value status-available">Open to Work</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">
+                        <span>Download CV</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card" data-tilt>
+                        <div class="info-card-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h3>Java Development</h3>
+                        <p>Building robust backend systems with Java, Spring Boot, and related technologies.</p>
+                    </div>
+                    <div class="info-card" data-tilt>
+                        <div class="info-card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Frontend Development</h3>
+                        <p>Creating responsive, interactive UIs with modern HTML, CSS, and JavaScript.</p>
+                    </div>
+                    <div class="info-card" data-tilt>
+                        <div class="info-card-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>Digital Marketing</h3>
+                        <p>Driving growth through SEO, social media, content strategy, and analytics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Skills</span>
+                <h2 class="section-title">My <span class="highlight">tech stack</span> & expertise</h2>
+            </div>
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i>
+                        Backend
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Spring Boot</span>
+                                <span class="skill-percent">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">REST APIs</span>
+                                <span class="skill-percent">72%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="72"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-palette"></i>
+                        Frontend
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML & CSS</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percent">78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Bootstrap / Tailwind</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Responsive Design</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-chart-pie"></i>
+                        Digital Marketing
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SEO</span>
+                                <span class="skill-percent">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Social Media Marketing</span>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Google Analytics</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Content Strategy</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-icons">
+                <div class="tech-icon"><i class="fab fa-java"></i><span>Java</span></div>
+                <div class="tech-icon"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                <div class="tech-icon"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                <div class="tech-icon"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+                <div class="tech-icon"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+                <div class="tech-icon"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                <div class="tech-icon"><i class="fab fa-google"></i><span>Google Ads</span></div>
+                <div class="tech-icon"><i class="fab fa-facebook"></i><span>Meta Ads</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Services</span>
+                <h2 class="section-title">What I <span class="highlight">offer</span></h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <div class="service-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java Backend Development</h3>
+                    <p>Scalable and secure backend solutions using Java, Spring Boot, RESTful APIs, and relational databases.</p>
+                    <ul class="service-features">
+                        <li>Spring Boot Applications</li>
+                        <li>REST API Development</li>
+                        <li>Database Design</li>
+                    </ul>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-badge">Popular</div>
+                    <div class="service-number">02</div>
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Beautiful, responsive, and interactive websites that deliver exceptional user experiences across all devices.</p>
+                    <ul class="service-features">
+                        <li>Responsive Web Design</li>
+                        <li>Interactive UI/UX</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Data-driven marketing strategies that increase visibility, engagement, and conversions for your business.</p>
+                    <ul class="service-features">
+                        <li>SEO & SEM</li>
+                        <li>Social Media Campaigns</li>
+                        <li>Analytics & Reporting</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">04</div>
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Boost your search engine rankings with technical SEO, on-page optimization, and content strategies.</p>
+                    <ul class="service-features">
+                        <li>Technical SEO Audits</li>
+                        <li>Keyword Research</li>
+                        <li>On-Page Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Portfolio</span>
+                <h2 class="section-title">Featured <span class="highlight">projects</span></h2>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="java">Java</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="java">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                        </div>
+                        <h3>Inventory Management System</h3>
+                        <p>A full-stack inventory management application with REST APIs and user authentication.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <div class="project-placeholder frontend-project">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <h3>E-Commerce Landing Page</h3>
+                        <p>A conversion-optimized responsive landing page with smooth animations and modern design.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="marketing">
+                    <div class="project-image">
+                        <div class="project-placeholder marketing-project">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>SEO</span>
+                            <span>Analytics</span>
+                            <span>Strategy</span>
+                        </div>
+                        <h3>Brand Growth Campaign</h3>
+                        <p>Increased organic traffic by 150% through comprehensive SEO and content marketing strategy.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <div class="project-placeholder frontend-project">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <h3>Restaurant Website</h3>
+                        <p>A beautiful, mobile-first restaurant website with online reservation and menu display.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="java">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>JDBC</span>
+                            <span>MySQL</span>
+                        </div>
+                        <h3>Student Management System</h3>
+                        <p>A CRUD application for managing student records with search, filter, and report features.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="marketing">
+                    <div class="project-image">
+                        <div class="project-placeholder marketing-project">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>Social Media</span>
+                            <span>Ads</span>
+                            <span>Content</span>
+                        </div>
+                        <h3>Social Media Campaign</h3>
+                        <p>Managed multi-platform social media campaigns generating 200% ROI for local businesses.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Get in Touch</span>
+                <h2 class="section-title">Let's work <span class="highlight">together</span></h2>
+                <p class="section-subtitle">Have a project in mind? Let's discuss how I can help bring your ideas to life.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:pramath@example.com">pramath@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+9771234567890">+977 1234567890</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <span>Kathmandu, Nepal</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder=" ">
+                            <label for="email">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required placeholder=" ">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">{</span>PS<span class="logo-bracket">}</span>
+                </div>
+                <p class="footer-text">
+                    Designed & Built by <strong>Pramath Shrestha</strong> with ❤️
+                </p>
+                <p class="footer-copyright">
+                    &copy; <span id="year"></span> All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
